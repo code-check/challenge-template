@@ -1,0 +1,25 @@
+{
+  "tags": [
+    "Language",
+    "Algorithm or REST or Database or Something"
+    "Keyword1",
+    "Keyword2",
+  ],
+  "editable": [
+    "filepath of main files to solve the challenge",
+    ".gitignore",
+    "answer.md",
+    "codecheck.yml"
+  ],
+  "excludes": [
+    "challenge.json",
+    "filepath of hidden tests"
+  ],
+  "main" : "filepath of main files to solve the challenge",
+  "readme" : {
+    "en" : "README.md",
+    "ja" : "README_ja.md"
+  },
+  "allowNewFile": true,
+  "test": "test command"
+}

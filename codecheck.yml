@@ -1,0 +1,5 @@
+build: 
+	build command
+console: true  
+test:
+	test command	
