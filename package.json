@@ -1,0 +1,36 @@
+{
+  "name": "challenge-template",
+  "version": "1.0.0",
+  "description": "REST API challenge template",
+  "main": "app/server.js",
+  "scripts": {
+    "test": "mocha specs/* --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-check/challenge-template.git"
+  },
+  "keywords": [
+    "mocha",
+    "RESTful",
+    "API"
+  ],
+  "author": "Givery Inc.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code-check/challenge-template/issues"
+  },
+  "homepage": "https://github.com/code-check/challenge-template#readme",
+  "devDependencies": {
+    "api-first-spec": "^0.2.9",
+    "chai": "^3.5.0",
+    "http-server": "^0.9.0",
+    "mocha": "^2.4.5",
+    "sqlite3": "^3.1.2"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "knex": "^0.10.0",
+    "body-parser": "^1.15.0"
+  }
+}

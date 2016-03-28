@@ -1,5 +1,2 @@
-build: 
-	build command
-console: true  
-test:
-	test command	
+build: npm install
+test: mocha specs/*/* --recursive

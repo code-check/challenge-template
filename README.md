@@ -8,3 +8,6 @@ Every challenge should have following files
 4. [challenge.json](challenge.json) with all the options
 5. [codecheck.yml](codecheck.yml) - Please refer [this](https://github.com/code-check/codecheck/blob/master/README.md) for options in codecheck.yml file
 6. answer.md for user's point of view while solving the challenge.
+
+
+- Run following command in your root folder to create db.sqlite database from [create.sql](sql/create.sql) file 'sqlite3 sql/db.sqlite < sql/create.sql'
